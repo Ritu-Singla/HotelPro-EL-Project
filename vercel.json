@@ -5,23 +5,19 @@
   "rewrites": [
     {
       "source": "/api/v1/(.*)",
-      "destination": "/api/index.js"
+      "destination": "https://hotelpro-el-project.onrender.com/api/v1/$1"
     },
     {
       "source": "/health",
-      "destination": "/api/index.js"
+      "destination": "https://hotelpro-el-project.onrender.com/health"
     },
     {
       "source": "/api/health",
-      "destination": "/api/index.js"
-    },
-    {
-      "source": "/api/v1/health",
-      "destination": "/api/index.js"
+      "destination": "https://hotelpro-el-project.onrender.com/api/health"
     },
     {
       "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
-}
+}d
